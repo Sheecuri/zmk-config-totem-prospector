@@ -4,13 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: carrefinho
       url-base: https://github.com/carrefinho
+    - name: Sheecuri
+      url-base: https://github.com/Sheecuri
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: prospector-zmk-module
-      remote: carrefinho
+      remote: Sheecuri
       revision: feat/new-status-screens
   self:
     path: config
